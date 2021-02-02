@@ -1,0 +1,444 @@
+/*generalites*/
+body {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		width : 100%;
+		font-size: 19px;
+		font-family: 'Raleway', sans-serif;
+}
+
+.encadrement {
+	margin: 0 1%;
+}
+
+.paddingTop10 {
+	padding-top: 10px;
+}
+
+.paddingTop40 {
+	padding-top: 40px;
+}
+
+.marginBottom {
+	margin-bottom: 30px;
+}
+
+.marginBottom15 {
+	margin-bottom: 15px;
+}
+
+.marginBottom20 {
+	margin-bottom: 20px;
+}
+
+.marginBottom50 {
+	margin-bottom: 50px;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.bolder {
+	font-weight: 700;
+}
+
+.text_decoration--none {/*a mettre dans les generalites*/
+    text-decoration: none;
+    color: black;
+}
+
+.font_size70 {
+	font-size: 70%;
+	}
+
+.font_size90 {
+font-size: 90%;
+}
+/*couleurs*/
+.bleuFonce {
+	color: #0065FC;
+}
+
+.bleuClair, .backgroundBleuClair{
+	color: #DEEBFF;
+}
+
+.grisFonce {
+	color: rgb(62, 62, 62);
+}
+
+.grisMoyen {
+	color: gray;
+}
+
+.grisClair {
+	color: #F2F2F2;
+}
+
+.backgroundGris {
+	background-color: #F2F2F2;
+}
+
+.backgroundBleuFonce {
+	background-color:  #0065FC;
+}
+
+.backgroundBleuClair {
+	background-color:  #DEEBFF;
+}
+
+/*premiere partie*/
+.premiere_partie_header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center; /*alignement centrer à la verticale dans une row*/
+	height: 150px;/*ok*/
+	width: 100%;
+}
+
+.premiere_partie_header__logo {
+	flex: 3;
+}
+
+.premiere_partie_header__inscrire {
+	order: 1;
+}
+
+.inscrire {
+	font-weight: bold;	
+}
+
+.inscrire:link {
+	text-decoration: none;
+}
+
+.premiere_partie_header__menu {
+	flex: 1;
+	display: flex;
+	width: 100%;
+}
+
+.premiere_partie_header__menu ul {
+	display: flex; 
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.logo {
+	min-width: 12%;
+}
+
+.inscrire, .hebergements, .activites {
+	/*font-size: 100%;/*pas utile*/
+}
+
+.liste_hebergements, .liste_activites {
+	list-style: none;
+}
+
+.hebergements, .activites {
+	text-decoration: none;	
+}
+/*************************************************************/
+/*deuxieme partie*/
+.deuxieme_partie--espacement {
+	/*margin: 2% 0 1% 0;/*af*/
+}
+.deuxieme_partie_titre, .quatrieme_partie_titre {
+	font-size: 140%;
+	font-weight: bolder;
+}
+
+.deuxieme_partie_paragraphe {
+	font-size : 100%;
+}
+
+/*partie rechercher / autre fichier css*/
+
+
+/*parties des filtres*/
+.deuxieme_partie__filtres {
+	display: flex;
+	align-items: baseline;
+	height: auto;
+	width: 80%;
+	font-weight: bold;
+}
+
+.deuxieme_partie__filtres___paragraphe {
+	width: 6%;
+}
+
+.deuxieme_partie__filtres__sous_parties {
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+}
+
+.sous_partie_filtres__sous_parties {
+	display: flex;
+	height: 50px;
+	align-items: center;
+	justify-content: flex-start;
+	border: 2px solid rgb(203, 202, 202);	
+	border-radius: 25px;
+	padding-right: 2%;/*espacement entre les titres*/
+	padding-left: 7%;/*idem*/
+	text-align: right;
+	position: relative;/*pouvoir ajuster des padding stables aux titres*/
+}
+
+
+.sous_partie_filtres__sous_parties:hover {
+	display: flex;
+	height: 50px;
+	align-items: center;
+	justify-content: flex-start;
+	border: 2px solid rgb(203, 202, 202);
+	border-radius: 25px;
+	padding-right: 2%;/*espacement entre les titres*/
+	padding-left: 7%;/*idem*/
+	text-align: right;
+	position: relative;/*pouvoir ajuster des padding stables aux titres*/
+
+	background-color:#F2F2F2;
+	color:  #0065FC;
+}
+
+.sous_parties__encadrement_icone {
+	height: 52px;
+	min-width: 52px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0%;
+	margin-right: 0%;/*espacer icone et leur titre*/
+
+	position: absolute;
+	left: 0;
+}
+
+/*partie information avec icone i*/
+.deuxieme_partie__info {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;/*espace entre icone i et texte*/
+}
+
+.deuxieme_partie__info__contour_info {
+margin-right: 0%;/*non*/
+}
+
+.icone_i {
+    border: 1px solid gray;
+    border-radius: 35px;
+    height: 21px;
+    width: 21px;
+	text-align: center;
+}
+
+/**************************************media queries********************************************/
+@media (min-width: 737px) and (max-width: 1023px) { 
+
+	.encadrement {
+		margin: 0 1%;
+	}
+	
+	.premiere_partie_header__logo {
+		flex: 3;
+	}
+
+	.premiere_partie_header__menu {
+		flex: 2;
+		display: flex;
+		width: 100%;
+	}
+
+	/*parties des filtres*/
+	.deuxieme_partie__filtres {
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+		width: 100%;
+		font-weight: bold;
+		height: auto;
+		margin-top: 40px;
+	}
+
+	.deuxieme_partie__filtres___paragraphe {
+		width: 100%;
+		padding-bottom: 15px;
+	}
+
+	.deuxieme_partie__filtres__sous_parties {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		width: 100%;
+		align-items: center;
+	}
+
+	.sous_partie_filtres__sous_parties {
+		display: flex;
+		height: 50px;
+		align-items: center;
+		justify-content: flex-start;
+		border: 2px solid rgb(203, 202, 202);	
+		border-radius: 25px;
+		padding-right: 1%;/*espacement entre les titres*/
+		padding-left: 7%;/*idem*/
+		text-align: right;
+		position: relative;/*pouvoir ajuster des padding stables aux titres*/
+	}
+
+	.sous_partie_filtres__sous_parties:hover {
+		display: flex;
+		height: 50px;
+		align-items: center;
+		justify-content: flex-start;
+		border: 2px solid rgb(203, 202, 202);	
+		border-radius: 25px;
+		padding-right: 1%;/*espacement entre les titres*/
+		padding-left: 7%;/*idem*/
+		text-align: right;
+		position: relative;/*pouvoir ajuster des padding stables aux titres*/
+
+		background-color:#F2F2F2;
+		color:  #0065FC;
+	}
+		
+	/*partie information avec icone i*/
+	.deuxieme_partie__info {
+		display: flex;
+		justify-content: space-between;
+		width: 69%;/*espace entre icone i et texte*/
+	}
+
+}
+
+
+@media (max-width: 736px) { 
+
+	.encadrement {
+		margin: 0 2%;
+	}
+
+	.premiere_partie_header {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.logo {
+		/*min-width: 10%; pas utile*/
+	}
+
+	.premiere_partie_header__logo {
+		flex: 2;
+	}
+		
+	.premiere_partie_header__inscrire {
+		flex: 1;
+		order: 0;
+		text-align: right;
+		padding-top: 20px;
+	}
+	
+	.premiere_partie_header__menu {
+		flex: 1 100%;
+		height: 40px;
+	}
+
+	.liste_hebergements {
+		border-bottom: 2px solid blue;
+		flex: 1;
+		text-align: center;
+	}
+
+	.liste_activites {
+		border-bottom: 2px solid gainsboro;
+		flex: 1;
+		text-align: center;
+	}
+
+	/*deuxieme partie Partie rechercher*/
+	
+	/*partie des filtres*/
+	
+	.deuxieme_partie__filtres {
+
+	}
+
+	.deuxieme_partie__filtres__sous_parties {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		min-height: 200px;/*a modifier */
+		align-items: center;
+	}
+	
+	.sous_partie_filtres__sous_parties {
+		display: flex;
+		height: 50px;
+		align-items: center;
+		justify-content: flex-start;
+		border: 2px solid rgb(203, 202, 202);	
+		border-radius: 25px;
+		padding-right: 5%;/*espacement entre les titres*/
+		padding-left: 16%;/*idem*/
+		text-align: right;	
+		position: relative;/*pouvoir ajuster des padding stables aux titres*/
+	}
+		
+	.sous_partie_filtres__sous_parties:hover {
+		display: flex;
+		height: 50px;
+		align-items: center;
+		justify-content: flex-start;
+		border: 2px solid rgb(203, 202, 202);	
+		border-radius: 25px;
+		padding-right: 5%;/*espacement entre les titres*/
+		padding-left: 16%;/*idem*/
+		text-align: right;	
+		position: relative;/*pouvoir ajuster des padding stables aux titres*/
+
+		background-color:#F2F2F2;
+		color:  #0065FC;
+	}
+	
+	.sous_parties__encadrement_icone {
+		height: 52px;
+		min-width: 52px;
+		border-radius: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 0%;
+		margin-right: 0%;/*espacer icone et leur titre*/
+	/*
+		position: absolute;
+		left: 0;*/
+	}
+	
+	/*partie information avec icone i*/
+	.deuxieme_partie__info {
+		
+	}
+
+	.deuxieme_partie__info__contour_info {
+		border-radius: 35px;
+		height: 20px;
+		margin-right: 3%;
+	}
+
+	.deuxieme_partie__info__disponibilites {
+		/*padding-left: 10px;*/
+	}
+
+}
