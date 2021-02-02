@@ -30,7 +30,7 @@ body {
 .sous_items_formulaire_rechercher {
 	height: 65px;
 	padding-top: 8px;
-	border: 1px solid #F2F2F2;/*changer la couleur*/
+	border: 1px solid #F2F2F2;
 	width: 50%;
 }
 
@@ -56,8 +56,7 @@ form {
 
 /******partie bouton desktop*******/   
 .deuxieme_partie__desktop button {
-	/*width : 200px;/*fonctionne pas VERIFIER*/
-  
+
 	-webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
 	-moz-box-sizing: border-box; /* Pour les navigateurs Chrome */
 	box-sizing: border-box;
@@ -66,7 +65,7 @@ form {
 .deuxieme_partie__desktop button[type=submit] {
 	color: white;
 	height: 65px;
-	width: 100%;/*faire un flex*/
+	width: 100%;
 	width: 175px;/*ici ok*/
 	border: none;
 	border-bottom-right-radius: 10px;
@@ -74,12 +73,12 @@ form {
 	padding: 0 20px;/*ok*/
 	outline: 0;
 }
-  
+
 .deuxieme_partie__desktop button:hover, input[type=submit]:hover {
 	color: rgb(228, 223, 223);
 	cursor: pointer;
 	height: 65px;
-	width: 100%;/*faire un flex*/
+	width: 100%;
 	width: 175px;/*ici ok*/
 	border-bottom-right-radius: 10px;
 	border-top-right-radius: 10px;
@@ -91,8 +90,7 @@ form {
 
 /******partie bouton iphone8*******/   
 .deuxieme_partie__iphone8 button {
-	/*width : 15px;/*fonctionne pas*/
-  
+
 	-webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
 	-moz-box-sizing: border-box; /* Pour les navigateurs Chrome */
 	box-sizing: border-box;
@@ -101,25 +99,24 @@ form {
 .deuxieme_partie__iphone8 button[type=submit] {
 	background-color: blue;
 	color: white;
-	height: 60px;/*euh*/
+	height: 60px;
 	width: 100%;/*revoir dimensions qd aligner*/
 	border: none;
 	border-radius: 20px;
 	padding: 22px;
 	outline: 0;
 }
-  
+
 .deuxieme_partie__iphone8 button:hover, input[type=submit]:hover {
 	color: rgb(228, 223, 223);
 	cursor: pointer;
-	height: 65px;
+	height: 60px;
 	width: 100%;/*revoir dimensions qd aligner*/
 	border: none;
 	border-radius: 20px;
 	border: none;
 
 }
-
 
 /**************************************media queries********************************************/
 @media (min-width: 737px) and (max-width: 1023px) { 
