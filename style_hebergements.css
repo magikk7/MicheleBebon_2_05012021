@@ -1,15 +1,5 @@
 /* partie 3 "hebergements à Marseille" => partie 1 : les images x6 de memes tailles*/
 
-/*generalites*/
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width : 100%;
-    font-size: 19px;
-    font-family: 'Raleway', sans-serif;
-}
-
 .troisieme_partie {
 display: flex;
 flex-direction: row;
@@ -33,7 +23,7 @@ height: auto;/*hauteur generale*/
     display: flex;
     flex-direction: column;
     flex: 2;
-    margin-right: 2%;/*trouver solution pour enlever margin*/ /*ok*/
+    margin-right: 2%;
     border-radius: 30px; 
     background-color: #F2F2F2;
 }
@@ -51,7 +41,7 @@ height: auto;/*hauteur generale*/
 .troisieme_partie__hebergements_cards {
     display: flex; 
     flex-direction: column; 
-    width: calc(33% - 20px); /*af*/
+    width: calc(33% - 20px);
     height: 300px;
     background-color: white;
     border-radius: 30px;
@@ -70,7 +60,7 @@ height: auto;/*hauteur generale*/
     flex: 2;
 } 
 
- /*deplacer image à interieur de la boite*/
+/*deplacer image à interieur de la boite*/
 .troisieme_partie_cards_images--image {
     width: 100%;
     height: 240px; 
@@ -86,7 +76,7 @@ height: auto;/*hauteur generale*/
     border-bottom-right-radius: 30px; 
     line-height: 25px;
     z-index: 1000;
-    padding-left: 15px;/*ok*/
+    padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -195,9 +185,6 @@ troisieme_partie_titre__hebergements
     font-weight: 600;
 }
 
- 
-
-
 /****************************media queries********************************************/
 @media (min-width: 1258px) and (max-width: 1304px) {         
     .troisieme_partie__hebergements_cards {
@@ -219,9 +206,6 @@ troisieme_partie_titre__hebergements
     }
 }
 
-
-
-
 @media (min-width: 1220px) and (max-width: 1258px) { 
     .troisieme_partie__hebergements_cards {
         display: flex; 
@@ -234,7 +218,7 @@ troisieme_partie_titre__hebergements
         box-shadow: 0px 4px 4px #d3d2d2;
     }
 
-    /*deplacer image à interieur de la boite*/
+    /*positionnement image à interieur de la boite*/
     .troisieme_partie_cards_images--image {
         width: 100%;
         height: 95px; 
@@ -246,7 +230,7 @@ troisieme_partie_titre__hebergements
     .troisieme_partie__hebergements_cards {
         display: flex; 
         flex-direction: column; 
-        width: calc(50% - 20px); /*af*/
+        width: calc(50% - 20px);
         height: 200px;
         background-color: white;
         border-radius: 30px;
@@ -254,7 +238,7 @@ troisieme_partie_titre__hebergements
         box-shadow: 0px 4px 4px #d3d2d2;
     }
 
-    /*deplacer image à interieur de la boite*/
+    /*positionnement image à interieur de la boite*/
     .troisieme_partie_cards_images--image {
         width: 100%;
         height: 95px; 
@@ -281,7 +265,7 @@ troisieme_partie_titre__hebergements
     .troisieme_partie__hebergements_cards {
         display: flex; 
         flex-direction: column; 
-        width: calc(50% - 20px); /*af*/
+        width: calc(50% - 20px);
         height: 200px;
         background-color: white;
         border-radius: 30px;
@@ -289,7 +273,7 @@ troisieme_partie_titre__hebergements
         box-shadow: 0px 4px 4px #d3d2d2;
     }
 
-    /*deplacer image à interieur de la boite*/
+    /*positionnement image à interieur de la boite*/
     .troisieme_partie_cards_images--image {
         width: 100%;
         height: 95px; 
@@ -300,7 +284,7 @@ troisieme_partie_titre__hebergements
         display: flex;
         flex-direction: column;
         flex: 3;
-        margin-right: 2%;/*trouver solution pour enlever margin*/ /*ok*/
+        margin-right: 2%;
         border-radius: 30px; 
         order: 1;
         background-color: white;
@@ -313,7 +297,7 @@ troisieme_partie_titre__hebergements
         border-radius: 30px;  
         padding: 30px;
         width: 100%;
-        height: auto;/
+        height: auto;
     }
             
     .troisieme_partie__hebergements__section_images {
@@ -330,7 +314,7 @@ troisieme_partie_titre__hebergements
         font-size: 80%;
     }
     
-    .troisieme_partie__populaires_cards {/*ok*/
+    .troisieme_partie__populaires_cards {
         width: 100%;
         height: 210px;
         border-radius: 20px;
@@ -338,13 +322,11 @@ troisieme_partie_titre__hebergements
     }
 }
 
-
-
 @media (min-width: 852px) and (max-width: 1042px) { 
     .troisieme_partie__hebergements_cards {
         display: flex; 
         flex-direction: column; 
-        width: calc(50% - 20px); /*af*/
+        width: calc(50% - 20px);
         height: 200px;
         background-color: white;
         border-radius: 30px;
@@ -352,7 +334,7 @@ troisieme_partie_titre__hebergements
         box-shadow: 0px 4px 4px #d3d2d2;
     }
 
-    /*deplacer image à interieur de la boite*/
+    /*positionnement image à interieur de la boite*/
     .troisieme_partie_cards_images--image {
         width: 100%;
         height: 95px; 
@@ -363,7 +345,7 @@ troisieme_partie_titre__hebergements
         display: flex;
         flex-direction: column;
         flex: 3;
-        margin-right: 2%;/*trouver solution pour enlever margin*/ /*ok*/
+        margin-right: 2%;
         border-radius: 30px; 
         order: 1;
         background-color: white;
@@ -389,7 +371,7 @@ troisieme_partie_titre__hebergements
         height: 650px;   
     }
 
-    .troisieme_partie__populaires_cards {/*ok*/
+    .troisieme_partie__populaires_cards {
         width: 100%;
         height: 210px;
         border-radius: 20px;
@@ -406,12 +388,11 @@ troisieme_partie_titre__hebergements
     
 }
 
-
 @media (min-width: 736px) and (max-width: 852px) { 
     .troisieme_partie__hebergements_cards {
         display: flex; 
         flex-direction: column; 
-        width: calc(50% - 20px); /*af*/
+        width: calc(50% - 20px);
         height: 200px;
         background-color: white;
         border-radius: 30px;
@@ -419,7 +400,7 @@ troisieme_partie_titre__hebergements
         box-shadow: 0px 4px 4px #d3d2d2;
     }
 
-    /*deplacer image à interieur de la boite*/
+    /*positionnemnet image à interieur de la boite*/
     .troisieme_partie_cards_images--image {
         width: 100%;
         height: 95px; 
@@ -430,7 +411,7 @@ troisieme_partie_titre__hebergements
         display: flex;
         flex-direction: column;
         flex: 2;
-        margin-right: 2%;/*trouver solution pour enlever margin*/ /*ok*/
+        margin-right: 2%;
         border-radius: 30px; 
         order: 1;
         background-color: white;
@@ -456,7 +437,7 @@ troisieme_partie_titre__hebergements
         height: 650px;   
     }
 
-    .troisieme_partie__populaires_cards {/*ok*/
+    .troisieme_partie__populaires_cards {
         width: 100%;
         height: 210px;
         border-radius: 20px;
@@ -476,12 +457,10 @@ troisieme_partie_titre__hebergements
         flex-direction: column;
         justify-content: space-between;
         height: auto;/*hauteur generale*/
-        }
-    
+    }
 }
 
 @media (max-width: 736px) { 
-        
     .partie_laterale_droit__titre {
         display: flex;
         flex-direction: row;
@@ -516,7 +495,7 @@ troisieme_partie_titre__hebergements
         border-radius: 0;  
     }
 
-    .troisieme_partie__populaires_cards {/*ok*/
+    .troisieme_partie__populaires_cards {
         width: 100%;
         height: 150px;
         border-radius: 20px;
@@ -532,7 +511,7 @@ troisieme_partie_titre__hebergements
         flex: 3;
         display: flex; 
         flex-direction: column; 
-        width: calc(33% - 20px); /*ok*/
+        width: calc(33% - 20px);
         line-height: 30px; 
         padding: 10px 30px 0 10px;       
         background-color: white;
@@ -540,11 +519,11 @@ troisieme_partie_titre__hebergements
     }
 
     .troisieme_partie__populaires__section_images {
-        /*rien*/
+        
     }
 
     .troisieme_partie_populaires__cards_images--image {
-        height: 150px;    /*ici je peux changer l'endroit ou je veux recadrer mon image de l'interieur*/  
+        height: 150px;    /*pour positionner/cadrer image*/  
     }
 
     .troisieme_partie_titre__populaires {
@@ -571,7 +550,7 @@ troisieme_partie_titre__hebergements
         
     .troisieme_partie__hebergements_cards {
         width: 100%;
-        height: 250px;/**/
+        height: 250px;
         border-radius: 20px;
         margin-bottom: 10px;
     }
