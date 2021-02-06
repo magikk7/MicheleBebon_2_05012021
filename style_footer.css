@@ -1,14 +1,4 @@
-/*footer RESERVIA*/
-
-/*generalites*/
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width : 100%;
-    font-size: 19px;
-    font-family: 'Raleway', sans-serif;
-}
+/*footer du site*/
 
 /*footer stable en bas de page du site*/
 /*#id {
@@ -43,7 +33,7 @@ body {
 }  
 
 .pied_de_page__sous_titre {
- /*rien*/
+
 }
 
 .pied_de_page__listes {
@@ -61,18 +51,18 @@ body {
     cursor: pointer;
 }
 
-
 /**************************************media queries********************************************/
 @media (min-width: 737px) and (max-width: 1023px) { 
-
+/*
 	.encadrement {
 		margin: 0 1%;
     }
         
     .pied_de_page {
         font-size: 80%;
-    }      
+    }   */   
 }
+
 /****************media queries*******************/
 @media (max-width: 736px) { 
 
