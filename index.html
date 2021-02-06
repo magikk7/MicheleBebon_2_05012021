@@ -3,36 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--metanames--->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--metaname--->
     <meta name="description" content="réservation pour les vacances, pour se reposer, faire du sport, des balades, aller à la mer, faire des activités ludiques, pour le loisir. S'évader chez l'habitant pour un week-end ou pour la semaine. En escapade seul, en amoureux ou en famille. Avec possibilité de prendre son animal de compagnie...">
     <title>Réservia</title>
 
     <!--lien fichiers css-->
-    <link rel="stylesheet" href="style.css"><!--fichier principal-->
-    <link rel="stylesheet" href="style_rechercher.css">
-    <link rel="stylesheet" href="style_hebergements.css">
-    <link rel="stylesheet" href="style_activites_marseille.css">
-    <link rel="stylesheet" href="style_footer.css">
-
-
-
-    <!--<link rel="stylesheet" href="../css/reset.css">-->
-    <link rel="stylesheet" href="minireset.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     
     <!--font Raleway-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-
 <div id="contenu">
     <div class="encadrement">
+        <header>
         <!------------------DEBUT HEADER-------------------------------->     
-        <header class="premiere_partie_header">
+        <div class="premiere_partie_header">
             <div class="premiere_partie_header__logo">
                 <img src="Reservia.svg" alt="logo du site de réservation Réservia" class="logo">
             </div>   
@@ -47,9 +36,8 @@
                     <li class="liste_activites"><a href="#activites" class="activites grisMoyen">Activités</a></li>
                 </ul>
             </nav>
-        </header>
+        </div>
         <!------------------DEBUT HEADER-------------------------------->
-    
     
         <!------------DEBUT PRESENTATION-------------------------------->
         <div class="deuxieme_partie marginBottom">
@@ -120,13 +108,11 @@
             <p class="deuxieme_partie__info__disponibilites">Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
         <!--fin partie info dispo logements-->
+        </header>
         <!--------------FIN PRESENTATION-------------------------------->
-    
     
     <!------------------------DEBUT MAIN-------------------------------->
     <!------------------------debut partie hébergement------------------>
-
-
     <main>
         <!---debut section 1 / hebergements + populaires --------------->
         <section class="troisieme_partie marginBottom50">
@@ -143,19 +129,23 @@
                     <!--image1/6-->
                     <div class="troisieme_partie__hebergements_cards">
                         <div class="troisieme_partie_cards_images">
-                            <img src="marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Auberge la Cannebière">
+                            <a href="#">
+                                <img src="marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Auberge la Cannebière">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie_cards_titres">
-                            <h3 class="troisieme_partie_titre__hebergements bolder">Auberge la Cannebière</h3>
-                            <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">25€</span></p>
-                            <p class="hebergements_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star grisClair"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__hebergements bolder">Auberge la Cannebière</h3>
+                                <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">25€</span></p>
+                                <p class="hebergements_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star grisClair"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
 
@@ -163,19 +153,23 @@
                     <!--image2/6-->
                     <div class="troisieme_partie__hebergements_cards">
                         <div class="troisieme_partie_cards_images">
-                            <img src="fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Hôtel du Port">
+                            <a href="#">
+                                <img src="fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Hôtel du Port">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie_cards_titres">
-                            <h3 class="troisieme_partie_titre__hebergements bolder">Hôtel du Port</h3>
-                            <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">52€</span></p>
-                            <p class="hebergements_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__hebergements bolder">Hôtel du Port</h3>
+                                <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">52€</span></p>
+                                <p class="hebergements_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
 
@@ -183,19 +177,23 @@
                     <!--image3/6-->
                     <div class="troisieme_partie__hebergements_cards">
                         <div class="troisieme_partie_cards_images">
-                            <img src="reisetopia-B8WIgxA_PFU-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Hôtel Les mouettes">
+                            <a href="#">
+                                <img src="reisetopia-B8WIgxA_PFU-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Hôtel Les mouettes">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie_cards_titres">
-                            <h3 class="troisieme_partie_titre__hebergements bolder">Hôtel Les Mouettes</h3>
-                            <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">76€</span></p>
-                            <p class="hebergements_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star grisClair"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__hebergements bolder">Hôtel Les Mouettes</h3>
+                                <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">76€</span></p>
+                                <p class="hebergements_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star grisClair"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
 
@@ -203,19 +201,23 @@
                     <!--image4/6-->
                     <div class="troisieme_partie__hebergements_cards">
                         <div class="troisieme_partie_cards_images">
-                            <img src="annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Hôtel de la mer">
+                            <a href="#">
+                                <img src="annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Hôtel de la mer">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie_cards_titres">
-                            <h3 class="troisieme_partie_titre__hebergements bolder">Hôtel de la mer</h3>
-                            <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">46€</span></p>
-                            <p class="hebergements_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star grisClair"></i>
-                                <i class="fas fa-star grisClair"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__hebergements bolder">Hôtel de la mer</h3>
+                                <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">46€</span></p>
+                                <p class="hebergements_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star grisClair"></i>
+                                    <i class="fas fa-star grisClair"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
 
@@ -223,19 +225,23 @@
                     <!--image5/6-->
                     <div class="troisieme_partie__hebergements_cards">
                         <div class="troisieme_partie_cards_images">
-                            <img src="nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Auberge Le Panier">
+                            <a href="#">
+                                <img src="nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Auberge Le Panier">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie_cards_titres">
-                            <h3 class="troisieme_partie_titre__hebergements bolder">Auberge Le Panier</h3>
-                            <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">23€</span></p>
-                            <p class="hebergements_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star grisClair"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__hebergements bolder">Auberge Le Panier</h3>
+                                <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">23€</span></p>
+                                <p class="hebergements_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star grisClair"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
 
@@ -243,19 +249,23 @@
                     <!--image6/6-->
                     <div class="troisieme_partie__hebergements_cards">
                         <div class="troisieme_partie_cards_images">
-                            <img src="febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Hôtel chez Amina">
+                            <a href="#">
+                                <img src="febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="troisieme_partie_cards_images--image" alt="Hôtel chez Amina">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie_cards_titres">
-                            <h3 class="troisieme_partie_titre__hebergements bolder">Hôtel chez Amina</h3>
-                            <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">96€</span></p>
-                            <p class="hebergements_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__hebergements bolder">Hôtel chez Amina</h3>
+                                <p class="troisieme_partie_paragraphe__hebergements">Nuit à partir de <span id="bolder">96€</span></p>
+                                <p class="hebergements_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
 
@@ -287,19 +297,23 @@
                     <!--image1/3-->
                     <div class="troisieme_partie__populaires_cards">
                         <div class="troisieme_partie__populaires_cards_images">
-                            <img src="emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="troisieme_partie_populaires__cards_images--image troisieme_partie_populaires__cards_images--position" alt="Hôtel Le soleil du matin">
+                            <a href="#">
+                                <img src="emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="troisieme_partie_populaires__cards_images--image troisieme_partie_populaires__cards_images--position" alt="Hôtel Le soleil du matin">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie__populaires_cards_titres">
-                            <h3 class="troisieme_partie_titre__populaires bolder">Hôtel Le soleil du matin</h3>
-                            <p class="troisieme_partie_paragraphe__populaires">Nuit à partir de <span id="bolder">128€</span></p>
-                            <p class="populaires_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__populaires bolder">Hôtel Le soleil du matin</h3>
+                                <p class="troisieme_partie_paragraphe__populaires">Nuit à partir de <span id="bolder">128€</span></p>
+                                <p class="populaires_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
 
@@ -307,19 +321,23 @@
                     <!--image2/3-->
                     <div class="troisieme_partie__populaires_cards">
                         <div class="troisieme_partie__populaires_cards_images">
-                            <img src="aw-creative-VGs8z60yT2c-unsplash.jpg" class="troisieme_partie_populaires__cards_images--image troisieme_partie_populaires__cards_images--position" alt="Au coeur de l'eau Chambres d'hôtes">
+                            <a href="#">
+                                <img src="aw-creative-VGs8z60yT2c-unsplash.jpg" class="troisieme_partie_populaires__cards_images--image troisieme_partie_populaires__cards_images--position" alt="Au coeur de l'eau Chambres d'hôtes">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie__populaires_cards_titres">
-                            <h3 class="troisieme_partie_titre__populaires bolder">Au coeur de l'eau Chambres d'hôtes</h3>
-                            <p class="troisieme_partie_paragraphe__populaires">Nuit à partir de <span id="bolder">71€</span></p>
-                            <p class="populaires_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star grisClair"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__populaires bolder">Au coeur de l'eau Chambres d'hôtes</h3>
+                                <p class="troisieme_partie_paragraphe__populaires">Nuit à partir de <span id="bolder">71€</span></p>
+                                <p class="populaires_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star grisClair"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
 
@@ -327,19 +345,23 @@
                     <!--image3/3-->
                     <div class="troisieme_partie__populaires_cards">
                         <div class="troisieme_partie__populaires_cards_images">
-                            <img src="febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="troisieme_partie_populaires__cards_images--image troisieme_partie_populaires__cards_images--position" alt="Hôtel tout bleu et blanc">
+                            <a href="#">
+                                <img src="febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="troisieme_partie_populaires__cards_images--image troisieme_partie_populaires__cards_images--position" alt="Hôtel tout bleu et blanc">
+                            </a>
                         </div>
 
                         <div class="troisieme_partie__populaires_cards_titres">
-                            <h3 class="troisieme_partie_titre__populaires bolder">Hôtel tout bleu et blanc</h3>
-                            <p class="troisieme_partie_paragraphe__populaires font_size90">Nuit à partir de <span id="bolder">68€</span></p>
-                            <p class="populaires_annotations">
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star bleuFonce"></i>
-                                <i class="fas fa-star grisClair"></i>
-                            </p>
+                            <a href="#" class="text_decoration--none">
+                                <h3 class="troisieme_partie_titre__populaires bolder">Hôtel tout bleu et blanc</h3>
+                                <p class="troisieme_partie_paragraphe__populaires font_size90">Nuit à partir de <span id="bolder">68€</span></p>
+                                <p class="populaires_annotations">
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star bleuFonce"></i>
+                                    <i class="fas fa-star grisClair"></i>
+                                </p>
+                            </a>
                         </div>
                     </div> 
                             
@@ -509,6 +531,5 @@
 
 <!----------------------script js pour fontawesome --------------------->
 <script src="https://kit.fontawesome.com/2bf677936b.js" crossorigin="anonymous"></script>      
-
 </body>
 </html>
