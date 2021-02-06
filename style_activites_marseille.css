@@ -1,15 +1,4 @@
-
-
 /* partie 4 "activités à Marseille" => les images x6 de tailles différentes*/
-/*generalites*/
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width : 100%;
-    font-size: 19px;
-    font-family: 'Raleway', sans-serif;
-}
 
 .quatrieme_partie_section_images {
     display: flex; 
@@ -70,7 +59,7 @@ body {
 }
 
 /*recadrage des images dans chaqhe card*/ 
-    
+
 .quatrieme_partie_cards_images--position2 {
     width: 100%; height: auto; display: block; position: relative; bottom: 60%;
 }
@@ -102,15 +91,8 @@ body {
     line-height: 70px;
 }
 
-.text_decoration--none {/*a mettre dans les generalites*/
-    text-decoration: none;
-    color: black;
-}
-
-
 /**************************************media queries********************************************/
 @media(min-width: 1022px) and (max-width: 1350px){ 
-   
     .quatrieme_partie_section_images {
         display: flex; 
         flex-direction: column; 
@@ -159,7 +141,6 @@ body {
         line-height: 60px;
     }
 }
-
 
 /**************************************media queries********************************************/
 @media (min-width: 953px) and (max-width: 1021px) { 
@@ -316,7 +297,7 @@ body {
     }
         
     .quatrieme_partie_cards_images--position2 {
-        height: auto; display: block; position: relative; bottom: 240%; /*COMPLIQUE IMAGES REFAIRE IMAGE ICI POUR LA PLUS PETITE*/
+        height: auto; display: block; position: relative; bottom: 240%;
     }
 
     .quatrieme_partie_cards_images--position3 {
@@ -337,10 +318,6 @@ body {
 }
 
 @media (max-width: 736px) { 
-    /*
-    body {
-        min-width: 360px;
-    }*/
     .marginBottom50 {
         margin-bottom: 25px;
     }
