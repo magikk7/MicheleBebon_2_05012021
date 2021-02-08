@@ -6,6 +6,7 @@
 /*fichiers css du site*/
 @import 'style_logo_menu.css';
 @import 'style_rechercher.css';
+@import 'style_filtres.css';
 @import 'style_hebergements.css';
 @import 'style_activites_marseille.css';
 @import 'style_footer.css';
