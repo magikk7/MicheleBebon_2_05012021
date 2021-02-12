@@ -37,6 +37,25 @@ form {
 	display:flex;
 }
 
+select{ 
+	width: auto;
+	background: transparent;
+	font-weight: 600;
+	border: 0;
+	border-radius: 0;
+	appearance:unset;
+	-webkit-appearance: none;
+	outline: none;
+	}
+
+	.selections select:hover {
+	color: #0065FC;
+	} 
+
+	optgroup, option {
+		font-size: 90%;
+	}
+
 /******partie bouton desktop*******/   
 .deuxieme_partie__desktop button {
 	box-sizing: border-box;
@@ -44,6 +63,7 @@ form {
 		
 .deuxieme_partie__desktop button[type=submit] {
 	color: white;
+	font-weight: 500;
 	height: 65px;
 	width: 100%;
 	width: 175px;
@@ -55,7 +75,9 @@ form {
 }
 
 .deuxieme_partie__desktop button:hover, input[type=submit]:hover {
-	color: rgb(228, 223, 223);
+	color: #0065FC;
+	font-weight: 600;
+	background-color: #DEEBFF;
 	cursor: pointer;
 	height: 65px;
 	width: 100%;
@@ -85,14 +107,15 @@ form {
 }
 
 .deuxieme_partie__iphone8 button:hover, input[type=submit]:hover {
-	color: rgb(228, 223, 223);
+	color: #0065FC;
+	font-weight: 600;
+	background-color: #DEEBFF;
 	cursor: pointer;
 	height: 60px;
 	width: 100%;
 	border: none;
 	border-radius: 20px;
 	border: none;
-
 }
 
 /**************************************media queries********************************************/
@@ -109,6 +132,10 @@ form {
 		border-bottom-left-radius: 10px;
 		padding-top: 22px;
 	} 
+
+	optgroup, option {
+		font-size: 80%;
+	}
 
 	.deuxieme_partie__ville {
 		height: 65px;
@@ -131,7 +158,9 @@ form {
 	}
 	
 	.deuxieme_partie__desktop button:hover, input[type=submit]:hover {
-		color: rgb(228, 223, 223);
+		color: #0065FC;
+		font-weight: 600;
+		background-color: #DEEBFF;
 		cursor: pointer;
 		height: 65px;
 		width: 100%;
@@ -146,31 +175,31 @@ form {
 }
 
 @media (max-width: 736px) { 
-		.deuxieme_partie__partie_icone_emplacement {
-		border: 1px solid #F2F2F2;/*couleur contour*/
-		height: 60px;
-		border-top-left-radius: 15px;
-		border-bottom-left-radius: 15px;
-		padding-top: 22px;
-		flex: 1 15%;
-	} 
-	
-	.deuxieme_partie__ville {
-		height: 60px;
-		padding-top: 18px;
-		border: 1px solid #F2F2F2;
-		flex: 2 70%;
-		padding-right: 0%;
-	}
+	.deuxieme_partie__partie_icone_emplacement {
+	border: 1px solid #F2F2F2;/*couleur contour*/
+	height: 60px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding-top: 22px;
+	flex: 1 15%;
+} 
 
-	.deuxieme_partie__desktop {
-		display: none;
-	}
+.deuxieme_partie__ville {
+	height: 60px;
+	padding-top: 18px;
+	border: 1px solid #F2F2F2;
+	flex: 2 70%;
+	padding-right: 0%;
+}
 
-	.deuxieme_partie__iphone8 {
-		visibility: visible;
-		flex: 1 15%;
-		margin-left: -5%;
-	}
+.deuxieme_partie__desktop {
+	display: none;
+}
+
+.deuxieme_partie__iphone8 {
+	visibility: visible;
+	flex: 1 15%;
+	margin-left: -5%;
+}
 }
 

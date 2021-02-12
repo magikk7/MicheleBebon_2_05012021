@@ -155,13 +155,6 @@
 	}
 	
 	.sous_parties__encadrement_icone {
-		/* display: flex;
-		justify-content: center;
-		align-items: center;
-        height: 52px;
-		min-width: 52px;
-		border-radius: 30px;
-		margin-left: 0%; */
 		margin-right: 5%;/*espacer icone et leur titre*/
 
 	}
@@ -226,18 +219,7 @@
 		background-color:#F2F2F2;
 		color:  #0065FC;
 	}
-	
-	.sous_parties__encadrement_icone {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-        height: 52px;
-		min-width: 52px;
-		border-radius: 30px;
-		margin-left: 0%;
-		margin-right: 0%;/*espacer icone et leur titre*/
-	}
-	
+
 	/*partie information avec icone i*/
     .deuxieme_partie__info {
         margin-top: 10px;
@@ -259,7 +241,14 @@
     }
 
     .sous_partie_filtres__sous_parties {
-        width: 80%;
+        min-width: 80%;
+        padding-left: 20%;
+        text-align: left;
+        margin-bottom: 3px;
+    }
+	
+    .sous_partie_filtres__sous_parties:hover {
+        min-width: 80%;
         padding-left: 20%;
         text-align: left;
         margin-bottom: 3px;
