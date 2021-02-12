@@ -1,7 +1,6 @@
 /*fichiers css qui reinitialise*/
 @import 'minireset.css';
 @import 'normalize.css';
-/*@import 'reset.css';*/
 
 /*fichiers css du site*/
 @import 'style_logo_menu.css';
