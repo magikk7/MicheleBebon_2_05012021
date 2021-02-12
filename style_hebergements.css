@@ -257,7 +257,6 @@
         flex: 3;
         border-radius: 30px; 
         order: 1;
-        background-color: white;
     }
 
     .troisieme_partie__populaires {
@@ -318,7 +317,6 @@
         flex: 3;
         border-radius: 30px; 
         order: 1;
-        background-color: white;
     }
 
     .troisieme_partie__populaires {
@@ -380,10 +378,10 @@
     .troisieme_partie__hebergements {
         display: flex;
         flex-direction: column;
-        flex: 2;
+        flex: 1;
         border-radius: 30px; 
         order: 1;
-        background-color: white;
+        margin: 20px 0 0 0;        
     }
 /*********************partie populaires*********************************/
     .troisieme_partie__populaires {
