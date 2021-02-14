@@ -176,30 +176,30 @@ select{
 
 @media (max-width: 736px) { 
 	.deuxieme_partie__partie_icone_emplacement {
-	border: 1px solid #F2F2F2;/*couleur contour*/
-	height: 60px;
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
-	padding-top: 22px;
-	flex: 1 15%;
+		border: 1px solid #F2F2F2;/*couleur contour*/
+		height: 60px;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+		padding-top: 22px;
+		flex: 1 15%;
 } 
 
-.deuxieme_partie__ville {
-	height: 60px;
-	padding-top: 18px;
-	border: 1px solid #F2F2F2;
-	flex: 2 70%;
-	padding-right: 0%;
-}
+	.deuxieme_partie__ville {
+		height: 60px;
+		padding-top: 18px;
+		border: 1px solid #F2F2F2;
+		flex: 2 70%;
+		padding-right: 0%;
+	}
 
-.deuxieme_partie__desktop {
-	display: none;
-}
+	.deuxieme_partie__desktop {
+		display: none;
+	}
 
-.deuxieme_partie__iphone8 {
-	visibility: visible;
-	flex: 1 15%;
-	margin-left: -5%;
-}
+	.deuxieme_partie__iphone8 {
+		visibility: visible;
+		flex: 1 15%;
+		margin-left: -5%;
+	}
 }
 
